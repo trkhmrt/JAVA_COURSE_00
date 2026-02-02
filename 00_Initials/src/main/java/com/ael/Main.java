@@ -2,7 +2,7 @@ package com.ael;
 
 public class Main {
     public static void main(String[] Args) {
-        System.out.println("Hello Team!");
+        System.out.println("Hello Guys!");
     }
 }
 
