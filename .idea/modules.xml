@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Operators/01_Operators.iml" filepath="$PROJECT_DIR$/01_Operators/01_Operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_Conditional/02_Conditional.iml" filepath="$PROJECT_DIR$/02_Conditional/02_Conditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_LOOPS/03_LOOPS.iml" filepath="$PROJECT_DIR$/03_LOOPS/03_LOOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA_COURSE_00.iml" filepath="$PROJECT_DIR$/.idea/JAVA_COURSE_00.iml" />
     </modules>
   </component>

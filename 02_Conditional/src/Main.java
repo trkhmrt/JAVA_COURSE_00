@@ -22,6 +22,7 @@ public class Main {
         }
 
 
+        //ÖDEV
         /* String olarak bir rol bilgisi tanımlancak(Statik)
         *
         * girilen rol bilgisi user ise (Sınırlı erişim mesajı yazsın)
@@ -32,6 +33,10 @@ public class Main {
         *
         * geri kalan bütün durumlar için yetkiniz yok mesajı konsolda yazdırılsın.
         *  */
+
+
+        // 0402262251_BUSE Branch oluşturma formatı GÜN_AY_YIL_SAAT_ISIM
+
 
 
 
