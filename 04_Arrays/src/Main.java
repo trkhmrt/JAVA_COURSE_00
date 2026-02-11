@@ -66,27 +66,46 @@ public class Main {
 //
 //        System.out.println(indeks);
 
-        //COPYOF
+
 
         //İstanbul
         //Adres Dğeri Gültepe
-        int[] sayilar = {20,30,90,14};
+//        int[] sayilar = {20,30,90,14};
+//
+//        System.out.println("Sayilar Dizisi:"+Arrays.toString(sayilar));
+//
+//        //Kağıthane
+//        int[] sayilar2 = {10,30,20,30};
+//        int refNO = System.identityHashCode(sayilar);
+//        System.out.println(refNO);
+//        sayilar2 = sayilar;
+//
+//        System.out.println("Sayilar2 Dizisi:"+Arrays.toString(sayilar2));
+//
+//        sayilar2[0] = 39;
+//        int refNO2 = System.identityHashCode(sayilar2);
+//        System.out.println(refNO2);
+//
+//        System.out.println("Sayilar Dizisi:"+Arrays.toString(sayilar));
+
+        //CLONE()
+        int[] sayilar = {20,30,90,14,43};
 
         System.out.println("Sayilar Dizisi:"+Arrays.toString(sayilar));
 
-        //Kağıthane
         int[] sayilar2 = {10,30,20,30};
-        int refNO = System.identityHashCode(sayilar);
-        System.out.println(refNO);
-        sayilar2 = sayilar;
+        sayilar2 = sayilar.clone();
 
-        System.out.println("Sayilar2 Dizisi:"+Arrays.toString(sayilar2));
-
+        System.out.println("Sayilar2 Dizisi:"+ Arrays.toString(sayilar2));
         sayilar2[0] = 39;
-        int refNO2 = System.identityHashCode(sayilar2);
-        System.out.println(refNO2);
-
         System.out.println("Sayilar Dizisi:"+Arrays.toString(sayilar));
+
+        //COPYOF() -> Diziyi kopyalarken yeniden boyutlandırma imkanı verir.
+        int[] sayilar3 = {50};
+
+        sayilar3 = Arrays.copyOf(sayilar,5);
+
+        System.out.println("Sayilar3 Dizisi:"+Arrays.toString(sayilar3));
 
 
 
