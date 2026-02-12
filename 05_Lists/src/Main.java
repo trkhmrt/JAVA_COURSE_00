@@ -112,16 +112,5 @@ public class Main {
 
         bas_harfi_t.forEach(System.out::println);
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

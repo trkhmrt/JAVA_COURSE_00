@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/03_LOOPS/03_LOOPS.iml" filepath="$PROJECT_DIR$/03_LOOPS/03_LOOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_Arrays/04_Arrays.iml" filepath="$PROJECT_DIR$/04_Arrays/04_Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Lists/05_Lists.iml" filepath="$PROJECT_DIR$/05_Lists/05_Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Functions_00/06_Functions_00.iml" filepath="$PROJECT_DIR$/06_Functions_00/06_Functions_00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Functions_01/07_Functions_01.iml" filepath="$PROJECT_DIR$/07_Functions_01/07_Functions_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_Dictionary/08_Dictionary.iml" filepath="$PROJECT_DIR$/08_Dictionary/08_Dictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA_COURSE_00.iml" filepath="$PROJECT_DIR$/.idea/JAVA_COURSE_00.iml" />
     </modules>
   </component>

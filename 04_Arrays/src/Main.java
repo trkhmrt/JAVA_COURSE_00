@@ -91,6 +91,7 @@ public class Main {
         //CLONE()
         int[] sayilar = {20,30,90,14,43};
 
+
         System.out.println("Sayilar Dizisi:"+Arrays.toString(sayilar));
 
         int[] sayilar2 = {10,30,20,30};
