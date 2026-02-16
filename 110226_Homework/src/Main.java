@@ -41,7 +41,7 @@ public class Main {
                 System.out.println("Öğrenci Listeleme Ekranına Hoşgeldiniz");
                 ogrencileri_listele(ogrenciler);
             } else if (secim==5) {
-                System.out.println("Çıkış yapılıyor...");
+                System.out.println("Çıkış yapılıyor");
                 break;
             }
             else{
