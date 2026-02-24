@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -16,6 +19,8 @@ public class Main {
         Selam selam2 = new Selam("Deneme",8080);
 
         System.out.println(selam.veri_tabani_baglanti());
+
+
 
 
 
