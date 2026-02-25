@@ -3,6 +3,7 @@ package model;
 import java.util.Date;
 
 public class BaseModel {
+    private int id;
     private String name;
     private String surname;
     private Date birthDate;
@@ -29,5 +30,23 @@ public class BaseModel {
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "BaseModel{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthDate=" + birthDate +
+                '}';
     }
 }
