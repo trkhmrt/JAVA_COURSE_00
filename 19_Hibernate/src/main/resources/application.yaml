@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: 19_Hibernate
+  datasource:
+    url: jdbc:mysql://45.147.47.129:3306/initial
+    username: root
+    password: algorycode1.
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+#server:
+  #port: 8090

@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/00_Initials/pom.xml" />
+        <option value="$PROJECT_DIR$/19_Hibernate/pom.xml" />
       </list>
     </option>
   </component>
