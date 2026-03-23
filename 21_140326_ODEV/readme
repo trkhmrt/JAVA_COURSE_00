@@ -1,0 +1,51 @@
+--İLİŞKİSEL VERİ TABANLARINDA İLİŞKİ TÜRLERİ--
+   1- One-to-One(Birebir)
+   Bir tablodaki kaydın diğer tablodaki yalnızca bir kayıtla eşleştiği durumu.
+
+   Örnek:Kullanıcı tablosundaki bir kayıt profil tablosundaki sadece bir kayıtla eşleşebilir.
+
+   2. One-To-Many(Bire çok)
+   Bir tablodaki kaydın diper tabloda birden fazla kayıtla ilişkili olması.
+
+   Örnek:BMW markasının model tablosunda birden fazla modelle eşleşmesi.
+
+   3. Many-To-One(Çoka bir)
+   One-To-Many ' nin tam tersi durumudur.Birden fazla kayıt tek bir kayıtla eşleşir.
+   Örnek:Bir çok çalışan tek bir departman altında çalışır.
+   NOT:! @JoinColumn anatasyonu ile hangi kolon üzerinden bağlanacağı belirtilir.
+
+   4. Many-To-Many(Çoka çok)
+   Bir tabloda birden fazla kaydın diğer tablodai birden fazla kayıtla ilişkili olması.
+   Örnek: Bir öğrenci birden fazla ders alabilir aynı zamanda bir dersin birden fazla öğrencisi olabilir.
+
+   1-Mat                                    Ayse
+   2-Türkçe      10-Leal        1-Mat       Tarık
+   3-Fizik                                  Buse
+
+   @Veri tabanında bu ilişkiyi yönetmek için üçüncü bir Ara Tablo yapılır(@Join Table)
+
+    Öğrenciler
+
+    Ayse    Mat  edebiyat Fizik
+
+    StudentsLectures
+
+    OgrenciID DersID
+    1          10
+    1          5
+    1          20
+
+    KRİTİK KAVRAMLAR
+    FetchType -> Verinin ne zaman yükleneceğini belirtir.EAGER(Hemen) LAZY(Çağrıldığı zaman gelir.)
+
+    CascadeType -> Bir nesne üzerinde yapılan (Kaydetme ve silme işlemi) diğer varlığa yansımasını sağlar.
+
+    Marka        model
+    1-BMW       1 Seda    1 hatchback  1 suv
+
+    HardDelete -> Satırın db den silinmesi
+    SoftDelete -> isDeleted gibi bir sütun aracalığı ile sadece bu sütun değerinin true yada false'a çekilmesi
+
+
+    MappedBy -> İlişkinin iki yönlü olduğu durumlarda ilişkinin sahibi olmayan tarafı belirtmek için kullanılır.
+

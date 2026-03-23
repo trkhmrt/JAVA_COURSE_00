@@ -2,6 +2,7 @@ package com.ael._0_spring_rest_api.controller;
 
 
 import com.ael._0_spring_rest_api.model.Student;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,14 +32,14 @@ public class FirstEndpoint {
     * ÖDEV
     *
     * GET VE POST MAPPİNG
-    *
-    * 3 adet endpoint oluşturmanızı istiyorum
-    * 2 GET 1 POST
-    *
-    * 1.GET
-    * path'e istek atıldığında string return yapılacak.(Mesaj içeriği size kalmış)
-    * 2.GET
-    *   - Path variable + RequestParam kullanılacak.
+     *
+     * 3 adet endpoint oluşturmanızı istiyorum
+     * 2 GET 1 POST
+     *
+     * 1.GET
+     * path'e istek atıldığında string return yapılacak.(Mesaj içeriği size kalmış)
+     * 2.GET
+     *   - Path variable + RequestParam kullanılacak.
     *   - Path variable'la gelen id değeri ve request paramla gönderilen filtre değeri varsa ekrana yazdırılacak.(Hikayeye göre kurgularsınız.)
     * 3.POST
     *   - Postmanden Gönderilen nesneyi kabul edip.En azından 1/2 fieldını(isim soyisim gibi) returnleyin.
@@ -62,9 +63,10 @@ public class FirstEndpoint {
     }
 
     @PostMapping("/firstPostRequest")
-    public String firstPostRequest(){
+    public ResponseEntity<String> firstPostRequest(){
         //int sayi = 10/0;
-        return "Post Mapping Tetiklendi";
+        //return "Post Mapping Tetiklendi";
+        return ResponseEntity.status(200).body("First");
     }
 
     @PostMapping("/sendStudent")

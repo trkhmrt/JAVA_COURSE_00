@@ -19,7 +19,7 @@
         </processorPath>
         <module name="19_Hibernate" />
       </profile>
-      <profile name="Annotation profile for 20_Spring_Rest_Api" enabled="true">
+      <profile name="Annotation profile for 21_140326_ODEV" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -27,6 +27,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="20_Spring_Rest_Api" />
+        <module name="21_140326_ODEV" />
       </profile>
     </annotationProcessing>
   </component>
@@ -34,6 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="19_Hibernate" options="-parameters" />
       <module name="20_Spring_Rest_Api" options="-parameters" />
+      <module name="21_140326_ODEV" options="-parameters" />
     </option>
   </component>
 </project>

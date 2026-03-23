@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 21_140326_ODEV
+ #SERVER -> Veritabanında ->
+  datasource:
+    url: jdbc:mysql://45.147.47.129:3306/cardb
+    username: root
+    password: algorycode1.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
