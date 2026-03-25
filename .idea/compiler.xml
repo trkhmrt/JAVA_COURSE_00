@@ -9,16 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="00_Initials" />
       </profile>
-      <profile name="Annotation profile for 19_Hibernate" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-        </processorPath>
-        <module name="19_Hibernate" />
-      </profile>
       <profile name="Annotation profile for 21_140326_ODEV" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -26,8 +16,18 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
+        <module name="19_Hibernate" />
         <module name="20_Spring_Rest_Api" />
         <module name="21_140326_ODEV" />
+      </profile>
+      <profile name="Annotation profile for 22_Global_Exception_Handler" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="22_Global_Exception_Handler" />
       </profile>
     </annotationProcessing>
   </component>
@@ -36,6 +36,7 @@
       <module name="19_Hibernate" options="-parameters" />
       <module name="20_Spring_Rest_Api" options="-parameters" />
       <module name="21_140326_ODEV" options="-parameters" />
+      <module name="22_Global_Exception_Handler" options="-parameters" />
     </option>
   </component>
 </project>

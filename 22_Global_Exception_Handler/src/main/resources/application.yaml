@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 22_Global_Exception_Handler
